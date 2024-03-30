@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Invoice-Processing-using-RPA-and-Generative-AI
+---
+A tool to automate the processing and extraction of structured data from invoices.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About
+---
+Manual invoice processing is error-prone, time-consuming, and hinder operational efficiency. Robotic Process Automation (RPA) with OCR and Generative AI promises enhanced efficiency, precise text extraction, seamless Excel integration, and error reduction, addressing these challenges effectively.
 
-## Available Scripts
+## Features
+---
+- Error Reduction: RPA, OCR, and Generative AI minimize errors in manual invoice processing.
+- Time Efficiency: Streamlined processes save time and boost operational productivity.
+- Precise Text Extraction: OCR and Generative AI ensure accurate data capture from diverse formats.
+- Seamless Integration: Smooth data transfer and Excel integration enhance workflow efficiency.
+- Cost-effectiveness: RPA reduces labor costs and improves overall operational cost-efficiency.
 
-In the project directory, you can run:
+## Requirements
+---
+- **Modern Operating System**
+  - Windows 7 or above
+  - Mac OS X 10.11 or higher, 64-bit
+  - Linux: RHEL 6/7, 64-bit
 
-### `npm start`
+- **Hardware Requirements**
+  - X86 64-bit CPU
+  - 16 GB RAM
+  - 3 GB Storage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Software Requirements**
+  - Programming Frameworks: React
+  - IDE: Visual Studio Code
+  - UiPath Studio and UiPath Assistant
+  - Programming Language: Nodejs
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## System Architecture
+---
+![System Architecture](https://github.com/sowjanyastays/Invoice-Processing-using-RPA-and-Generative-AI/blob/master/System_Architecture.jpg)
 
-### `npm test`
+## Output
+---
+**Output1 - Name of the output**
+![Output1](https://github.com/sowjanyastays/Invoice-Processing-using-RPA-and-Generative-AI/blob/master/Ouput_1.jpg)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Output2 - Name of the output**
+![Output2](https://github.com/sowjanyastays/Invoice-Processing-using-RPA-and-Generative-AI/blob/master/Output_2.jpg)
 
-### `npm run build`
+**Extraction Accuracy:** 97.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Results and Impact
+---
+- Document Extraction Limitations:
+  - Training models require large, resource-intensive datasets for multiple invoice extraction.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Advantages of Natural Language Processing (NLP):
+  - Language agnosticism and better generalization to diverse document types and languages.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Future Research Focus:
+  - Develop advanced document understanding models using NLP, computer vision, and multimodal learning.
 
-### `npm run eject`
+- Versatility for Businesses:
+  - Applicable to businesses of all sizes and industries for data extraction from invoices.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Articles published / References
+---
+- Author, F.: K. M. Yindumathi, Shilpa Shashikant Chaudhari, and R. Aparna
+  - Title: Structured Data Extraction Using Machine Learning From Unstructured Bills/Invoices (2021).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Bibhu Dash
+  - Title: A hybrid solution for extracting information from unstructured data using optical character recognition (OCR) with natural language processing (NLP) (2021).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
