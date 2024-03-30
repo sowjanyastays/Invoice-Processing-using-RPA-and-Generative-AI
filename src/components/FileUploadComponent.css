@@ -1,0 +1,76 @@
+/* FileUploadComponent.css */
+
+.file-upload-container {
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  .preview-container {
+    width: 75%;
+    height: 100%;
+    overflow-y: auto;
+    border-right: 1px solid #ccc; /* Add a border to separate the preview area */
+  }
+  
+  .browse-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .browse-logo img {
+    margin: 12px;
+    width: 50px;
+    cursor: pointer;
+    display: flex; /* Adjust the size of your browse button logo */
+  }
+  
+  .file-preview {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    transition: box-shadow 0.2s ease; /* Add a smooth transition for the shadow */
+  }
+  
+  .file-preview:hover {
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2); /* Add a light shadow on hover */
+  }
+  
+  .file-preview img {
+    max-width: 150px;
+    max-height: 150px;
+  }
+  
+  .bi-trash:hover{
+    box-shadow: 0px 0px 5px 2px rgb(255, 1, 1); 
+    
+  }
+  .upload-logo{
+    margin-left: 10rem  ;
+  }
+  
+  .extract-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+  
+  .extract-button:hover {
+    background-color: darkgreen;
+  }
+
+  .file-up{
+    padding-right: 3rem;
+  }
